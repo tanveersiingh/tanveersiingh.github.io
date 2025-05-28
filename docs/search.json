@@ -1,16 +1,16 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tanveer Singh",
+    "section": "",
+    "text": "Hello! I’m Tanveer Singh - a third year undergraduate at UC Santa Barbara majoring in Statistics and Data Science. Outside the classroom, I enjoy hiking with my Australian Shepherd, travelling, and eating!"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "tanveersiingh.github.io",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   }
 ]

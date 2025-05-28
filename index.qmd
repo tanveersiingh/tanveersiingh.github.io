@@ -1,11 +1,19 @@
 ---
-title: "tanveersiingh.github.io"
+title: "Tanveer Singh"
+image: IMG_4182.jpeg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/tansin/
+    - text: GitHub
+      href: https://github.com/tanveersiingh
+    - text: Email
+      href: tanveersingh@ucsb.edu
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Hello! I'm Tanveer Singh - a third year undergraduate at UC Santa Barbara majoring in Statistics and Data Science. Outside the classroom, I enjoy hiking with my Australian Shepherd, travelling, and eating!
