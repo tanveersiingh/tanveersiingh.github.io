@@ -1,0 +1,5 @@
+#Options included will apply to all posts
+
+freeze: auto
+
+title-block-banner: true
