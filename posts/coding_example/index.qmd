@@ -10,7 +10,7 @@ image: /images/coding_preview.jpeg
 
 ## Explaination
 
-Cleaning, wrangling, and creating visualization to analyze monthly rainfall from UCSB rain gauge.
+This analysis cleans and summarizes daily rainfall data from the UCSB rain gauge into monthly totals across multiple water years. The resulting plot shows monthly rainfall trends over six water years, illustrating seasonal and annual variations clearly.
 
 ## setup
 

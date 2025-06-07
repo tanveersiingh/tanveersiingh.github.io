@@ -60,14 +60,14 @@
     "href": "posts/coding_example/index.html",
     "title": "Creating a Figure in RStudio",
     "section": "",
-    "text": "Cleaning, wrangling, and creating visualization to analyze monthly rainfall from UCSB rain gauge."
+    "text": "This analysis cleans and summarizes daily rainfall data from the UCSB rain gauge into monthly totals across multiple water years. The resulting plot shows monthly rainfall trends over six water years, illustrating seasonal and annual variations clearly."
   },
   {
     "objectID": "posts/coding_example/index.html#explaination",
     "href": "posts/coding_example/index.html#explaination",
     "title": "Creating a Figure in RStudio",
     "section": "",
-    "text": "Cleaning, wrangling, and creating visualization to analyze monthly rainfall from UCSB rain gauge."
+    "text": "This analysis cleans and summarizes daily rainfall data from the UCSB rain gauge into monthly totals across multiple water years. The resulting plot shows monthly rainfall trends over six water years, illustrating seasonal and annual variations clearly."
   },
   {
     "objectID": "posts/coding_example/index.html#setup",
