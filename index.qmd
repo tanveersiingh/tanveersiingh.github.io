@@ -1,6 +1,6 @@
 ---
 title: "Tanveer Singh"
-image: IMG_4182.jpeg
+image: images/IMG_4182.jpeg
 toc: false
 about: 
   template: jolla
@@ -12,8 +12,7 @@ about:
     - text: GitHub
       href: https://github.com/tanveersiingh
     - text: Email
-      href: tanveersingh@ucsb.edu
+      href: "mailto:tanveersingh@ucsb.edu"
 ---
 
-
-Hello! I'm Tanveer Singh - a third year undergraduate at UC Santa Barbara majoring in Statistics and Data Science. Outside the classroom, I enjoy hiking with my Australian Shepherd, travelling, and eating!
+Hello! My name is Tanveer Singh and I am a third-year undergraduate student at UC Santa Barbara, majoring in Statistics and Data Science.

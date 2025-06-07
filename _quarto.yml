@@ -11,7 +11,8 @@ website:
       - about.qmd
       - projects.qmd
       - other.qmd
-      - resume.qmd
+      - href: Tanveer_Singh_resume.pdf
+        text: Resume
       
 format:
   html:
