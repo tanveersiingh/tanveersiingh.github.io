@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Things I like to do! – Tanveer Singh</title>
+<title>Travel – Tanveer Singh</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,6 +66,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -102,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./other.html" aria-current="page"> 
-<span class="menu-text">Things I like to do!</span></a>
+<span class="menu-text">Travel</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Tanveer_Singh_resume.pdf"> 
@@ -119,20 +129,27 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#interactive-photo-map" id="toc-interactive-photo-map" class="nav-link active" data-scroll-target="#interactive-photo-map">Interactive Photo Map</a></li>
+  <li><a href="#gallery" id="toc-gallery" class="nav-link" data-scroll-target="#gallery">Gallery</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Things I like to do!</h1>
+<h1 class="title">Travel</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -144,8 +161,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="interactive-photo-map" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-photo-map">Interactive Photo Map</h2>
+<p>I’ve been fortunate enough to travel a bunch these past few years. Play around with the map to see some of the places I have visited!</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-ae09e36e9283409261db" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-ae09e36e9283409261db">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[10.70358,10.4875,10.4481,48.8603,48.8581,48.8337,51.5055,51.5007,34.6851,34.6687,34.9671,34.9948],[-84.99077,-84.7542,-84.6683,2.3364,2.2945,2.3323,-0.07539999999999999,-0.1246,135.837,135.5033,135.7727,135.7851],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<b>Rio Celeste, Costa Rica<\/b><br><img src='images/LaFortuna.jpeg' width='200'>","<b>Arenal Volcano, Costa Rica<\/b><br><img src='images/arenalvolcano.jpeg' width='200'>","<b>La Fortuna Waterfall, Costa Rica<\/b><br><img src='images/lafortunawaterfall.jpeg' width='200'>","<b>Louvre Museum, France<\/b><br><img src='images/monalisa.jpeg' width='200'>","<b>Eiffel Tower, France<\/b><br><img src='images/eiffeltower.jpeg' width='200'>","<b>Catacombs, France<\/b><br><img src='images/catacombs.jpeg' width='200'>","<b>Tower Bridge, London<\/b><br><img src='images/towerbridge.jpeg' width='200'>","<b>Big Ben, London<\/b><br><img src='images/bigben.jpeg' width='200'>","<b>Nara Deer Park<\/b><br><img src='images/nara.jpeg' width='200'>","<b>Glico Sign (Osaka)<\/b><br><img src='images/glico.jpeg' width='200'>","<b>Fushimi Inari Taisha<\/b><br><img src='images/gates.jpeg' width='200'>","<b>Kiyomizu-dera Temple<\/b><br><img src='images/shrine.jpeg' width='200'>"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[10.4481,51.5055],"lng":[-84.99077,135.837]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="gallery" class="level2">
+<h2 class="anchored" data-anchor-id="gallery">Gallery</h2>
+<div>
+
+</div>
+<div class="columns quarto-layout-panel" data-layout-ncol="5">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<p><img src="images/LaFortuna.jpeg" class="img-fluid" data-group="my_gallery" alt="Rio Celeste, Costa Rica"> <img src="images/monalisa.jpeg" class="img-fluid" data-group="my_gallery" alt="Louvre Museum, France"> <img src="images/nara.jpeg" class="img-fluid" data-group="my_gallery" alt="Nara Deer Park, Japan"> <img src="images/towerbridge.jpeg" class="img-fluid" data-group="my_gallery" alt="Tower Bridge, London"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<p><img src="images/lafortunawaterfall.jpeg" class="img-fluid" data-group="my_gallery" alt="La Fortuna Waterfall, Costa Rica"> <img src="images/eiffeltower.jpeg" class="img-fluid" data-group="my_gallery" alt="Eiffel Tower, France"> <img src="images/glico.jpeg" class="img-fluid" data-group="my_gallery" alt="Glico Sign, Japan"> <img src="images/bigben.jpeg" class="img-fluid" data-group="my_gallery" alt="Big Ben, London"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: flex-start;">
+<p><img src="images/arenalvolcano.jpeg" class="img-fluid" data-group="my_gallery" alt="Arenal Volcano, Costa Rica"> <img src="images/catacombs.jpeg" class="img-fluid" data-group="my_gallery" alt="Catacombs, France"> <img src="images/gates.jpeg" class="img-fluid" data-group="my_gallery" alt="Fushimi Inari Taisha, Japan"> <img src="images/shrine.jpeg" class="img-fluid" data-group="my_gallery" alt="Kiyomizu-dera Temple, Japan"> <!-- Two empty items to fill the 5-column grid --> <img src=".png" class="invisible img-fluid"> <img src=".png" class="invisible img-fluid"></p>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

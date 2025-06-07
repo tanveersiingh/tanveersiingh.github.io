@@ -89,5 +89,26 @@
     "title": "Creating a Figure in RStudio",
     "section": "Vizualization",
     "text": "Vizualization\n\nggplot(rain_clean, # using rain_clean df\n       aes(x = month, # variable on x\n           y = total_rain, # variable on y\n           color = water_year, # color the years\n           group = water_year)) + # organize data by water_year\n  geom_line() + # connecting the plots with the same water_year\n  geom_point() + # adding points to the line\n  labs(x = \"Month\", # relabeling the x axis\n       y = \"Total monthly rain (inches)\", # relabeling the y axis\n       title = \"Monthly rainfall from UCSB rain gauge\", # adding title\n       color = \"Water year\") + # add colors\n  scale_color_manual(values = c(\"purple\", \"darkred\", \"orange\", \"gold\",\n                                \"darkgreen\", \"darkblue\"), # Changed the colors\n                     labels = c(\"2018-2019\", \"2019-2020\", \"2020-2021\", \"2021-2022\",\n                                \"2022-2023\", \"2023-2024\")) +\n  theme_bw() + # add theme\n  theme(\n    legend.position.inside = c(0.95, 0.95), # Place legend at top right inside the plot (updated from deprecated legend.position)\n    legend.justification = c(1, 1), # Anchor the top right of the legend to the coordinates\n    panel.grid.major = element_blank(), # remove major lines\n    panel.grid.minor = element_blank(), # remove minor lines\n    panel.border = element_blank(), # remove border\n    axis.ticks = element_blank(), # remove axis ticks\n    plot.title = element_text(hjust = 0) # center the plot title\n  )"
+  },
+  {
+    "objectID": "other.html",
+    "href": "other.html",
+    "title": "Travel",
+    "section": "",
+    "text": "I’ve been fortunate enough to travel a bunch these past few years. Play around with the map to see some of the places I have visited!"
+  },
+  {
+    "objectID": "other.html#interactive-photo-map",
+    "href": "other.html#interactive-photo-map",
+    "title": "Travel",
+    "section": "",
+    "text": "I’ve been fortunate enough to travel a bunch these past few years. Play around with the map to see some of the places I have visited!"
+  },
+  {
+    "objectID": "other.html#gallery",
+    "href": "other.html#gallery",
+    "title": "Travel",
+    "section": "Gallery",
+    "text": "Gallery"
   }
 ]

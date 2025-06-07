@@ -1,3 +1,107 @@
 ---
-title: Things I like to do!
+title: Travel
+lightbox: true
 ---
+
+## Interactive Photo Map
+
+I've been fortunate enough to travel a bunch these past few years. Play around with the map to see some of the places I have visited!
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#Set up chunk for photo map
+library("sf")
+library("dplyr")
+library("leaflet")
+library("htmltools")
+library("rnaturalearth")
+library("leaflet.extras")
+
+#Set up data frame with points for each photo
+
+photos <- data.frame(
+  name = c(
+    "Rio Celeste, Costa Rica",
+    "Arenal Volcano, Costa Rica",
+    "La Fortuna Waterfall, Costa Rica",
+    "Louvre Museum, France",
+    "Eiffel Tower, France",
+    "Catacombs, France",
+    "Tower Bridge, London",
+    "Big Ben, London",
+    "Nara Deer Park",
+    "Glico Sign (Osaka)",
+    "Fushimi Inari Taisha",
+    "Kiyomizu-dera Temple"
+  ),
+  lon = c(
+    -84.99077, -84.7542, -84.6683, 
+    2.3364, 2.2945, 
+    2.3323, -0.0754, -0.1246, 
+    135.8370, 135.5033, 135.7727, 135.7851
+  ),
+  lat = c(
+    10.70358, 10.4875, 10.4481, 
+    48.8603, 48.8581, 
+    48.8337, 51.5055, 51.5007, 
+    34.6851, 34.6687, 34.9671, 34.9948
+  ),
+  img = c(
+    "images/LaFortuna.jpeg",
+    "images/arenalvolcano.jpeg",
+    "images/lafortunawaterfall.jpeg",
+    "images/monalisa.jpeg",
+    "images/eiffeltower.jpeg",
+    "images/catacombs.jpeg",
+    "images/towerbridge.jpeg",
+    "images/bigben.jpeg",
+    "images/nara.jpeg",
+    "images/glico.jpeg",
+    "images/gates.jpeg",
+    "images/shrine.jpeg"
+  )
+)
+
+photos$popup <- paste0(
+  "<b>", photos$name, "</b><br>",
+  "<img src='", photos$img, "' width='200'>"
+)
+
+#Transform data frame from plain to spatial
+photos <- photos %>% 
+  sf :: st_as_sf(coords = c("lon", "lat"), crs = 4326)
+
+#Prepare leaflet plot 
+lplot <- leaflet::leaflet(data = photos) %>%
+  leaflet::addTiles() %>%
+  addMarkers(popup = ~popup)
+
+lplot #Displays plot
+
+```
+
+## Gallery
+
+::: {.columns layout-ncol="5"}
+
+![Rio Celeste, Costa Rica](images/LaFortuna.jpeg){group="my_gallery"}
+![Louvre Museum, France](images/monalisa.jpeg){group="my_gallery"}
+![Nara Deer Park, Japan](images/nara.jpeg){group="my_gallery"}
+![Tower Bridge, London](images/towerbridge.jpeg){group="my_gallery"}
+
+![La Fortuna Waterfall, Costa Rica](images/lafortunawaterfall.jpeg){group="my_gallery"}
+![Eiffel Tower, France](images/eiffeltower.jpeg){group="my_gallery"}
+![Glico Sign, Japan](images/glico.jpeg){group="my_gallery"}
+![Big Ben, London](images/bigben.jpeg){group="my_gallery"}
+
+![Arenal Volcano, Costa Rica](images/arenalvolcano.jpeg){group="my_gallery"}
+![Catacombs, France](images/catacombs.jpeg){group="my_gallery"}
+![Fushimi Inari Taisha, Japan](images/gates.jpeg){group="my_gallery"}
+![Kiyomizu-dera Temple, Japan](images/shrine.jpeg){group="my_gallery"}
+<!-- Two empty items to fill the 5-column grid -->
+![](){.invisible}
+![](){.invisible}
+
+:::
