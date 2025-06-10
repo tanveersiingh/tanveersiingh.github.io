@@ -1,0 +1,13 @@
+---
+title: "Final RGST 137 Research paper"
+description: "Guided research project in the Modern Gnostic Church and on the Mandaeans"
+author:
+  - name: Tanveer Singh
+    url: https://tanveersiingh.github.io/
+date: 03/20/2025
+image: /images/research_paper_preview.jpeg
+---
+
+<iframe src="RS137FINALPAPER.pdf" width="100%" height="800px">
+
+</iframe>
