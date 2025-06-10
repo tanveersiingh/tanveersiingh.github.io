@@ -5,7 +5,7 @@ project:
 website:
   title: "Tanveer Singh"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
@@ -16,8 +16,9 @@ website:
       
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: litera
+    css: styles.scss
+    mainfont: Oswald
     toc: true
     page-layout: full
 
