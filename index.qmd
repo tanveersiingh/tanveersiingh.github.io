@@ -1,11 +1,11 @@
 ---
 title: "Tanveer Singh"
-image: images/IMG_4182.jpeg
+image: images/IMG_8566.jpeg
 toc: false
-about: 
+about:
   template: jolla
-  image-shape: round
-  image-width: 17em
+  image-shape: rounded
+  image-width: 18em
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/tansin/
@@ -15,4 +15,4 @@ about:
       href: "mailto:tanveersingh@ucsb.edu"
 ---
 
-Hello! My name is Tanveer Singh and I am a third-year undergraduate student at UC Santa Barbara, majoring in Statistics and Data Science.
+Hello! My name is Tanveer Singh, and I am a recent graduate of UC Santa Barbara with a B.S. in Statistics and Data Science. I’m interested in applying data, statistical modeling, and machine learning to solve real-world problems and make informed decisions. My experience includes projects in predictive modeling, time-series forecasting, and data analysis using Python and R. I’m currently looking to begin my career in data, cybersecurity, or analytics while continuing to expand my technical skills and take on new challenges.

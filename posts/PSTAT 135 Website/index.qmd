@@ -1,0 +1,8 @@
+---
+title: "Weather Forecasting"
+description: "Built a Python machine learning pipeline using NOAA weather data to predict daily maximum temperatures."
+image: "PSTAT-135-Preview.png"
+date: 2026-06-14
+---
+
+[View Full Project](Pstat135FinalProject.pdf)

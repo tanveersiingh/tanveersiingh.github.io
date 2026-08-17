@@ -3,6 +3,6 @@ title: "Projects"
 listing: 
   contents: posts
   type: default
-  sort: "date desc"
+  sort: "date asc"
   categories: false
 ---

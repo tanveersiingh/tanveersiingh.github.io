@@ -1,0 +1,8 @@
+---
+title: "NLP Recommendation System"
+description: "Developed a content-based movie recommendation system using NLP to analyze plot summaries and identify films with similar narratives, themes, and language."
+image: "PSTAT-134-Preview.png"
+date: 2026-06-04
+---
+
+[View Full Project](134FinalProjectWriteUp.html)

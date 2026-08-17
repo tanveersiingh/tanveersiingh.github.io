@@ -10,15 +10,15 @@ website:
         text: Home
       - about.qmd
       - projects.qmd
-      - other.qmd
-      - href: Tanveer_Singh_resume.pdf
+#      - other.qmd
+      - href: resume.qmd
         text: Resume
       
 format:
   html:
-    theme: litera
+    theme: Flatly
     css: styles.scss
-    mainfont: Oswald
+    mainfont: Source Sans Pro
     toc: true
     page-layout: full
 

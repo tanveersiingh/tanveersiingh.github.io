@@ -1,0 +1,8 @@
+---
+title: "Uber Demand Forecasting"
+description: "Analyzed historical Uber trip data to forecast daily ride demand in R and examine whether trip characteristics could improve future demand predictions."
+image: "PSTAT-174-Preview.png"
+date: 2026-06-13
+---
+
+[View Full Project](Pstat174Final.pdf)

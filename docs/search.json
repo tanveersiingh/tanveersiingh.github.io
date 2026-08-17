@@ -4,28 +4,28 @@
     "href": "index.html",
     "title": "Tanveer Singh",
     "section": "",
-    "text": "Hello! My name is Tanveer Singh and I am a third-year undergraduate student at UC Santa Barbara, majoring in Statistics and Data Science."
+    "text": "Hello! My name is Tanveer Singh, and I am a recent graduate of UC Santa Barbara with a B.S. in Statistics and Data Science. I’m interested in applying data, statistical modeling, and machine learning to solve real-world problems and make informed decisions. My experience includes projects in predictive modeling, time-series forecasting, and data analysis using Python and R. I’m currently looking to begin my career in data, cybersecurity, or analytics while continuing to expand my technical skills and take on new challenges."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "A list of things I like to do:"
+    "text": "A few of the things, people, and experiences that have shaped who I am outside of school and work:"
   },
   {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "My Resume"
+    "text": "Open Resume in New Tab"
   },
   {
     "objectID": "about.html#snowboarding",
     "href": "about.html#snowboarding",
     "title": "About Me",
     "section": "Snowboarding",
-    "text": "Snowboarding\nSnowboarding was something I always wanted to try but never thought I’d have the time or money to fully commit to. Three years ago, I finally took the leap—I bought a season pass and a complete setup. Since then, it’s become a yearly tradition. My favorite resorts are Kirkwood and Sierra-at-Tahoe, and I can confidently hit rails, boxes, and small jumps. It’s my favorite way to disconnect and escape into the mountains for a day."
+    "text": "Snowboarding\nSnowboarding was something I had always wanted to try, but for a long time, I never thought I’d have the time or money to fully commit to it. Three years ago, I finally decided to give it a shot, buying my first season pass and a complete setup. Since then, it’s become something I look forward to every winter. Kirkwood and Sierra-at-Tahoe are my favorite resorts, and over the years I’ve progressed to riding rails, boxes, and small jumps. More than anything, I enjoy snowboarding because it gives me a chance to disconnect and spend a day in the mountains."
   },
   {
     "objectID": "about.html#basketball",
@@ -46,14 +46,14 @@
     "href": "about.html#valleysoles",
     "title": "About Me",
     "section": "ValleySoles",
-    "text": "ValleySoles\nI never really saw myself as an entrepreneur—until one random day during the COVID lockdown. Stuck at home and looking for ways to make some extra cash, I combined my love for sneakers with a bit of hustle. I started by buying used shoes, cleaning them up, and reselling them. As things picked up, I launched my brand, ValleySoles, and began using online software to automate checkouts. What started as a side hobby ended up replacing my part-time job and opened the door to a whole new world of opportunity."
+    "text": "ValleySoles\nI never really saw myself as an entrepreneur until one random day during the COVID lockdown. Stuck at home and looking for a way to make some extra money, I decided to combine my interest in sneakers with an opportunity I saw in the resale market. I started small, buying used shoes, cleaning them up, and reselling them online. As things picked up, I launched Valley Soles and began using software to automate online checkouts and expand my inventory. What started as a side hobby eventually replaced my part-time job and became my first real experience building and running something of my own."
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Creating a Figure in RStudio\n\n\n\n\n\nENVS 193DS - Midterm, Problem 4\n\n\n\n\n\nApr 30, 2025\n\n\nTanveer Singh\n\n\n\n\n\n\n\n\n\n\n\n\nFinal RGST 137 Research paper\n\n\n\n\n\nGuided research project in the Modern Gnostic Church and on the Mandaeans\n\n\n\n\n\nMar 20, 2025\n\n\nTanveer Singh\n\n\n\n\n\n\nNo matching items"
+    "text": "Fraud Detection Using Machine Learning\n\n\nExplored how machine learning can identify fraudulent online transactions, with a focus on handling class imbalance and comparing model performance.\n\n\n\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nNLP Recommendation System\n\n\nDeveloped a content-based movie recommendation system using NLP to analyze plot summaries and identify films with similar narratives, themes, and language.\n\n\n\n\n\nJun 4, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nUber Demand Forecasting\n\n\nAnalyzed historical Uber trip data to forecast daily ride demand in R and examine whether trip characteristics could improve future demand predictions.\n\n\n\n\n\nJun 13, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nWeather Forecasting\n\n\nBuilt a Python machine learning pipeline using NOAA weather data to predict daily maximum temperatures.\n\n\n\n\n\nJun 14, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/coding_example/index.html",
@@ -110,5 +110,40 @@
     "title": "Travel",
     "section": "Gallery",
     "text": "Gallery"
+  },
+  {
+    "objectID": "posts/PSTAT 131 Website/index.html",
+    "href": "posts/PSTAT 131 Website/index.html",
+    "title": "Fraud Detection Using Machine Learning",
+    "section": "",
+    "text": "View Full Project"
+  },
+  {
+    "objectID": "posts/PSTAT 135 Website/index.html",
+    "href": "posts/PSTAT 135 Website/index.html",
+    "title": "Weather Forecasting",
+    "section": "",
+    "text": "View Full Project"
+  },
+  {
+    "objectID": "posts/PSTAT 174 Website/index.html",
+    "href": "posts/PSTAT 174 Website/index.html",
+    "title": "Uber Demand Forecasting",
+    "section": "",
+    "text": "View Full Project"
+  },
+  {
+    "objectID": "posts/PSTAT 134 Website/index.html",
+    "href": "posts/PSTAT 134 Website/index.html",
+    "title": "NLP Recommendation System",
+    "section": "",
+    "text": "View Full Project"
+  },
+  {
+    "objectID": "about.html#wally",
+    "href": "about.html#wally",
+    "title": "About Me",
+    "section": "Wally!",
+    "text": "Wally!\nMy Australian Shepherd has been a huge part of my life and is easily my favorite companion. Whether we’re going on walks, getting outside, or just hanging around at home, he always finds a way to make things more entertaining. Aussies are known for being intelligent and energetic, and he definitely lives up to that reputation. Having him around has taught me a lot about patience and responsibility."
   }
 ]
